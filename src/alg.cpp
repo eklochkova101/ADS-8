@@ -1,6 +1,12 @@
+// Copyright 2026 NNTU-CS
+
 #include <algorithm>
 #include <fstream>
 #include <iostream>
+#include <vector>
+#include <utility>
+#include <string>
+
 #include "bst.h"
 
 static bool isLatin(char c) {
