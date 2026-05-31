@@ -2,6 +2,7 @@
 #ifndef INCLUDE_BST_H_
 #define INCLUDE_BST_H_
 
+#include <algorithm>
 #include <string>
 #include <vector>
 
@@ -48,6 +49,7 @@ class BST {
       clear(node->rightBranch);
       delete node;
     }
+
  public:
     BST() : root(nullptr) {}
     ~BST() { clear(root); }
