@@ -1,4 +1,5 @@
-// Copyright 2021 NNTU-CS
+// Copyright 2026 NNTU-CS
+#include <string>
 #include "bst.h"
 
 void makeTree(BST<std::string>& tree, const char* filename);
